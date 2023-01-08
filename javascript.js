@@ -48,7 +48,7 @@ var clickTimer = function clickTimer(){
       text.textContent = "wow, you'er REALLY slow"
     }
       else if(reactionTime >= 750){
-        text.textContent("did you even try?")
+        text.textContent = "did you even try?"
       }
       else if(reactionTime >= 500){
         text.textContent = "really slow"
